@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title> Rock Cards </title>
+
+</head>
+
+<body>
+
+    <main>
+
+        <div class="containerForms">
+
+            <div class="gif">
+                <img src="./img/rockGif.gif" alt="" srcset="">
+            </div>
+
+            <div class="formulario"> 
+
+                <h3> Adicione sua Banda Favorita ! </h3>
+                
+                <form class="formularioItens">
+                    
+                    <div>
+                        <input type="text" placeholder="Título" id="tituloCard" required minlength="4">
+                        <small> Preencha o título corretamente </small>
+                    </div>
+                    
+                    <div>
+                        <input type="url" placeholder="Url" id="urlCard" required>
+                        <small> Preencha a url corretamente </small>
+                    </div>
+
+                    <div>
+                        <textarea placeholder="Descrição" cols="25" rows="5" id="descricaoCard" required minlength="4" maxlength="405"></textarea> 
+                        <small> Preencha a descrição corretamente </small>
+                    </div>
+
+                    <div class="formularioButton">
+                        <button type="submit" id="cadastroButton" disabled> Cadastrar </button>
+                    </div> 
+
+                </form>
+
+            </div>
+
+        </div>
+
+        <div class="containerTitulo">
+            <h2> Lendas do Rock </h2>
+        </div>
+
+        <div class="containerCards">
+            
+            <div class="card">
+                <h3> Kiss </h3>
+                <img src="https://i.pinimg.com/564x/78/ca/b6/78cab695134e3bd8126251650886b0e2.jpg" alt="" srcset=""> 
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni eum blanditiis, possimus dolor, vitae, sed error sequi eos non quisquam corrupti assumenda laborum provident perspiciatis quibusdam impedit labore. Rerum, odio.</p>
+            </div>
+
+        </div>
+
+    </main>
+    
+    <footer  id="footer">
+
+        <div class="container-footer">
+            
+            <nav class="nav-footer">
+                <h4>Juliett Garcia</h4>
+                <div class="contatos">
+                    <a href="">
+                        <img src="./img/linkedin-logo.png" alt="logo linkedind">
+                    </a>
+                    <a href="">
+                        <img src="./img/github-logo.png" alt="logo github">
+                    </a>
+                </div>
+            </nav>
+
+            <nav class="nav-footer">
+                <h4>Luis Gustavo Braga</h4>
+                <div class="contatos">
+                    <a href="https://www.linkedin.com/in/luis-gustavo-braga/">
+                        <img src="./img/linkedin-logo.png" alt="logo linkedind">
+                    </a>
+                    <a href="https://github.com/LuisBraga31">
+                        <img src="./img/github-logo.png" alt="logo github">
+                    </a>
+                </div>
+            </nav>
+
+            <nav class="nav-footer">
+                <h4>Vanilza Flora Silvestre</h4>
+                <div class="contatos">
+                    <a href="https://www.linkedin.com/in/vanilza-flora-silvestre/"> 
+                        <img src="./img/linkedin-logo.png"alt="logo linkedind"> </a>
+                    <a href="https://github.com/Vaflosima">
+                        <img src="./img/github-logo.png" alt="logo github">
+                    </a>
+                </div>
+            </nav>
+
+        </div>
+
+        <div class="copy-right">
+            <p>
+                Checkpoint 1 desenvolvido em 2023
+            </p>
+        </div>
+
+    </footer>
+
+    <script src="./js/main.js" type="module"></script>
+
+</body>
+
+</html>
